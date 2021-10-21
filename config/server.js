@@ -1,8 +1,9 @@
 module.exports = ({ env }) => ({
   host: env('HOST', '0.0.0.0'),
   port: env.int('PORT', 1337),
+  "production": true,
   "autoReload": {
-    "enabled": false
+    "enabled": true
   },
   admin: {
     auth: {
