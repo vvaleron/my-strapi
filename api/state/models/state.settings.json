@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "states",
+  "info": {
+    "name": "state"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "popup": {
+      "type": "json"
+    },
+    "background": {
+      "type": "json"
+    },
+    "options": {
+      "type": "json"
+    },
+    "ua": {
+      "type": "string"
+    }
+  }
+}
