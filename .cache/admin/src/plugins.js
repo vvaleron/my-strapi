@@ -21,11 +21,14 @@ window.strapi = Object.assign(window.strapi || {}, {
 });
 
 module.exports = {
-  'content-manager': require('../../plugins/strapi-plugin-content-manager/admin/src').default,
+  'backup-restore': require('../../plugins/strapi-plugin-backup-restore/admin/src').default,
+'content-manager': require('../../plugins/strapi-plugin-content-manager/admin/src').default,
 'content-type-builder': require('../../plugins/strapi-plugin-content-type-builder/admin/src').default,
 'documentation': require('../../plugins/strapi-plugin-documentation/admin/src').default,
 'email': require('../../plugins/strapi-plugin-email/admin/src').default,
+'graphql': require('../../plugins/strapi-plugin-graphql/admin/src').default,
 'i18n': require('../../plugins/strapi-plugin-i18n/admin/src').default,
+'migrate': require('../../plugins/strapi-plugin-migrate/admin/src').default,
 'upload': require('../../plugins/strapi-plugin-upload/admin/src').default,
 'users-permissions': require('../../plugins/strapi-plugin-users-permissions/admin/src').default,
   
