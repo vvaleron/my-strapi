@@ -1,4 +1,4 @@
-module.exports = () => ({
+module.exports = (env) => ({
     "backup-restore": {
         postgres: {
             // Update with your path
