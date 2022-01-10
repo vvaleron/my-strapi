@@ -79,8 +79,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.develop" />
       <item itemvalue="npm.build" />
+      <item itemvalue="npm.develop" />
     </list>
     <recent_temporary>
       <list>
